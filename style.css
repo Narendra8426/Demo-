@@ -1,0 +1,75 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav h1{
+    margin-left: 2rem;
+    font-weight: 400;
+}
+
+li{
+    list-style: none;
+    margin-right: 2rem;
+    padding-top: 12px;
+    font-size: 1.5rem;
+}
+ul a{
+    text-decoration: none ;
+    color: black;
+}
+ a:hover{
+     color: rgb(29, 47, 209);
+ }
+.navbar>nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+
+}
+/* img[ src="Images\lap.jpeg"]{
+    height: 100vh;
+    width: 95vw;
+    margin: 1rem;
+}*/
+ .welcomeImage img{
+     height: 100vh;
+     width: 92vw;
+     margin-left: 3vw;
+     margin-right: 2vw;
+ }
+/*1 rem = 16px ( font size of root (html) element)*/
+
+.skills {
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.skills>div{
+    text-align: center;
+    width: 30vw;
+}
+.skills>div>p{
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+ 
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 0.5rem
+   
+}
+
+.footer>p{
+    font-size: 1.1rem;
+    margin-top: -1rem;
+}
+#footer1{
+     padding-top: .8rem;
+}
